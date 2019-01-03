@@ -1,0 +1,39 @@
+﻿
+* Branching Mind Map of Artists
+* Show Artist Recommendations based on current artist
+* Add Artist to Map
+* Save Mindmap in SQL
+* See Most Popular Albums
+* Add Album as Played, In Progress (Last.FM Tracking)
+* Change Album Status
+* Change Focused Artist
+
+
+* INode
+	* Name
+	* Recommendations
+	* Parent
+	* Children
+
+* Artist (INode)
+	* Albums
+		* Name
+		* Album Count
+		* Album Progress
+		* Tracks
+	* Sort Albums by Popularity
+	* Sort Albums by Alphabet
+	* Last.FM Information
+	* Spotify Information		
+
+* Get Artist Information
+
+* ArtistMap
+	* Origin
+	* Focus
+	* Move Focus to Child
+	* Move Focus to Origin
+	* Move Focus to Parent
+	* List of Artists (Alphabetical) 
+	* Artist Exists?
+	 
